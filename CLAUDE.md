@@ -70,6 +70,15 @@ pnpm ui:build
   - `infra/` — Core infrastructure (env, errors, ports)
   - `media/` — Media processing pipeline
   - `plugin-sdk/` — Plugin system API
+  - `security/` — Security features (RBAC, audit logging, rate limiting)
+  - `mcp/` — MCP (Model Context Protocol) integration for external tools
+  - `agent-hooks/` — Event-driven agent lifecycle hooks
+  - `skills/` — Skills marketplace and sub-agent templates
+  - `orchestration/` — Multi-agent coordination and task delegation
+  - `proactive/` — Autonomous agents with schedule/webhook triggers
+  - `memory/` — Semantic memory and knowledge graph
+  - `debug/` — Debugging dashboard and observability
+  - `canvas/` — Cross-channel rich content rendering
 - `extensions/` — Plugin workspace packages (27+ channel/feature plugins)
 - `apps/` — Native applications
   - `ios/`, `android/`, `macos/` — Swift/Kotlin apps
@@ -202,6 +211,13 @@ When updating versions, check all these files:
 | Gateway server | `src/gateway/server.ts` |
 | Channel routing | `src/channels/index.ts` |
 | Config loading | `src/config/index.ts` |
+| Security manager | `src/security/index.ts` |
+| MCP client | `src/mcp/index.ts` |
+| Agent hooks | `src/agent-hooks/index.ts` |
+| Orchestrator | `src/orchestration/index.ts` |
+| Memory system | `src/memory/index.ts` |
+| Debug dashboard | `src/debug/index.ts` |
+| Canvas renderer | `src/canvas/index.ts` |
 
 ### Common Tasks
 
@@ -235,3 +251,19 @@ pnpm lint && pnpm build && pnpm test
 - [USER_GUIDE.md](USER_GUIDE.md) - End-user documentation
 - [QUICK_START.md](QUICK_START.md) - Quick start with use cases
 - [AGENTS.md](AGENTS.md) - Full repository guidelines
+
+### Advanced Tutorials
+
+Deep-dive tutorials for advanced features (in `docs/advanced-tutorials/`):
+
+| Tutorial | Description |
+|----------|-------------|
+| [MCP Integration](docs/advanced-tutorials/17-mcp-integration.md) | Connect external tools via Model Context Protocol |
+| [Agent Hooks System](docs/advanced-tutorials/18-agent-hooks-system.md) | Event-driven lifecycle interception |
+| [Skills Marketplace](docs/advanced-tutorials/19-skills-marketplace.md) | Reusable sub-agent templates |
+| [Agent Orchestration](docs/advanced-tutorials/20-agent-orchestration.md) | Multi-agent coordination |
+| [Proactive Agents](docs/advanced-tutorials/21-proactive-agents.md) | Autonomous schedule/event-driven agents |
+| [Memory & Knowledge Graph](docs/advanced-tutorials/22-memory-knowledge-graph.md) | Persistent semantic memory |
+| [Debugging Dashboard](docs/advanced-tutorials/23-debugging-dashboard.md) | Real-time observability |
+| [Cross-Channel Canvas](docs/advanced-tutorials/24-cross-channel-canvas.md) | Rich content rendering |
+| [Security Enhancements](docs/advanced-tutorials/25-security-enhancements.md) | RBAC, audit logging, rate limiting |

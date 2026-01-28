@@ -2,13 +2,24 @@
 
 > ## 📚 Fork Notice
 >
-> **This is a fork of [moltbot/moltbot](https://github.com/moltbot/moltbot) with comprehensive tutorials and documentation.**
+> **This is a fork of [moltbot/moltbot](https://github.com/moltbot/moltbot) with comprehensive tutorials, documentation, and next-generation features.**
 >
 > This fork adds:
-> - **[Advanced Tutorials](./advanced-tutorials/)** — 17 in-depth tutorials (00-16) covering architecture, channel setup, configuration, security, plugin development, and troubleshooting
+> - **[Advanced Tutorials](./docs/advanced-tutorials/)** — 26 in-depth tutorials (00-25) covering architecture, channel setup, configuration, security, plugin development, MCP integration, agent orchestration, and more
 > - **[Quick Start Guide](./QUICK_START.md)** — Get running in 5 minutes
 > - **[User Guide](./USER_GUIDE.md)** — Complete end-user reference
 > - **[Developer Guide](./DEVELOPER_GUIDE.md)** — Architecture and internals for contributors
+>
+> **Next-Generation Features (17-25):**
+> - [MCP Integration](./docs/advanced-tutorials/17-mcp-integration.md) — Connect external tools via Model Context Protocol
+> - [Agent Hooks System](./docs/advanced-tutorials/18-agent-hooks-system.md) — Event-driven lifecycle interception
+> - [Skills Marketplace](./docs/advanced-tutorials/19-skills-marketplace.md) — Reusable sub-agent templates
+> - [Agent Orchestration](./docs/advanced-tutorials/20-agent-orchestration.md) — Multi-agent coordination
+> - [Proactive Agents](./docs/advanced-tutorials/21-proactive-agents.md) — Schedule/webhook triggered agents
+> - [Memory & Knowledge Graph](./docs/advanced-tutorials/22-memory-knowledge-graph.md) — Semantic memory with entity relationships
+> - [Debugging Dashboard](./docs/advanced-tutorials/23-debugging-dashboard.md) — Real-time agent observability
+> - [Cross-Channel Canvas](./docs/advanced-tutorials/24-cross-channel-canvas.md) — Rich content with platform fallbacks
+> - [Security Enhancements](./docs/advanced-tutorials/25-security-enhancements.md) — RBAC, audit logging, rate limiting
 >
 > All tutorials are written specifically for **Moltbot** (not the legacy Clawdbot codebase) and are grounded in the actual source code with verbose explanations and ASCII diagrams.
 >

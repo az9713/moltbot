@@ -1,7 +1,9 @@
 // Split into focused modules to keep files small and improve edit locality.
 
 export * from "./types.agent-defaults.js";
+export * from "./types.agent-hooks.js";
 export * from "./types.agents.js";
+export * from "./types.memory.js";
 export * from "./types.approvals.js";
 export * from "./types.auth.js";
 export * from "./types.base.js";
@@ -14,6 +16,7 @@ export * from "./types.googlechat.js";
 export * from "./types.gateway.js";
 export * from "./types.hooks.js";
 export * from "./types.imessage.js";
+export * from "./types.mcp.js";
 export * from "./types.messages.js";
 export * from "./types.models.js";
 export * from "./types.node-host.js";
@@ -28,3 +31,5 @@ export * from "./types.telegram.js";
 export * from "./types.tts.js";
 export * from "./types.tools.js";
 export * from "./types.whatsapp.js";
+export * from "./types.canvas.js";
+export * from "./types.security.js";
