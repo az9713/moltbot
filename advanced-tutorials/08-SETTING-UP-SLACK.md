@@ -167,7 +167,7 @@ Before starting, ensure you have:
 ├─────────────────────────────────────────────────────────────────────┤
 │                                                                     │
 │  Token                                                              │
-│  xapp-1-A0123456789-0123456789012-abcdefghijklmnopqrstuvwxyz...    │
+│  xapp-1-AXXXXXXXXXX-XXXXXXXXXXXXX-xxxxxxxxxxxxxxxxxxxxxxxx...     │
 │                                                                     │
 │  ⚠️  Save this token now - you won't be able to see it again!     │
 │                                                                     │
@@ -311,12 +311,12 @@ Before starting, ensure you have:
 
 ```bash
 # Linux/macOS
-export SLACK_APP_TOKEN="xapp-1-A0123456789-..."
-export SLACK_BOT_TOKEN="xoxb-0123456789-0123456789012-..."
+export SLACK_APP_TOKEN="xapp-YOUR-APP-TOKEN-HERE"
+export SLACK_BOT_TOKEN="xoxb-YOUR-BOT-TOKEN-HERE"
 
 # Windows PowerShell
-$env:SLACK_APP_TOKEN = "xapp-..."
-$env:SLACK_BOT_TOKEN = "xoxb-..."
+$env:SLACK_APP_TOKEN = "xapp-YOUR-APP-TOKEN-HERE"
+$env:SLACK_BOT_TOKEN = "xoxb-YOUR-BOT-TOKEN-HERE"
 ```
 
 Then enable Slack:
@@ -331,8 +331,8 @@ moltbot config set channels.slack.enabled true
   "channels": {
     "slack": {
       "enabled": true,
-      "appToken": "xapp-1-A0123456789-0123456789012-abcdef...",
-      "botToken": "xoxb-0123456789-0123456789012-abcdefghijklmnop..."
+      "appToken": "${SLACK_APP_TOKEN}",
+      "botToken": "${SLACK_BOT_TOKEN}"
     }
   }
 }
@@ -495,8 +495,8 @@ The response will appear only to you (ephemeral) or in the channel, depending on
   "channels": {
     "slack": {
       "enabled": true,
-      "appToken": "xapp-1-A0123456789-...",
-      "botToken": "xoxb-0123456789-...",
+      "appToken": "${SLACK_APP_TOKEN}",
+      "botToken": "${SLACK_BOT_TOKEN}",
 
       "groupPolicy": "allowlist",
       "channels": {
