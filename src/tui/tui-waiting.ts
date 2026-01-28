@@ -5,16 +5,21 @@ type MinimalTheme = {
 };
 
 export const defaultWaitingPhrases = [
-  "flibbertigibbeting",
-  "kerfuffling",
-  "dillydallying",
-  "twiddling thumbs",
-  "noodling",
-  "bamboozling",
-  "moseying",
-  "hobnobbing",
-  "pondering",
-  "conjuring",
+  "engaging warp drive",
+  "hailing frequencies",
+  "scanning for lifeforms",
+  "calibrating phasers",
+  "reversing the polarity",
+  "modulating shields",
+  "consulting the computer",
+  "rerouting power",
+  "beaming up",
+  "reconfiguring deflector array",
+  "analyzing with tricorder",
+  "charging photon torpedoes",
+  "entering the neutral zone",
+  "making it so",
+  "setting course for adventure",
 ];
 
 export function pickWaitingPhrase(tick: number, phrases = defaultWaitingPhrases) {
