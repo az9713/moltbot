@@ -247,9 +247,9 @@ pnpm lint && pnpm build && pnpm test
 
 ## Related Documentation
 
-- [DEVELOPER_GUIDE.md](DEVELOPER_GUIDE.md) - Comprehensive developer onboarding
-- [USER_GUIDE.md](USER_GUIDE.md) - End-user documentation
-- [QUICK_START.md](QUICK_START.md) - Quick start with use cases
+- [Developer Guide](docs/guides/developer-guide.md) - Comprehensive developer onboarding
+- [User Guide](docs/guides/user-guide.md) - End-user documentation
+- [Quick Start](docs/guides/quick-start.md) - Quick start with use cases
 - [AGENTS.md](AGENTS.md) - Full repository guidelines
 
 ### Advanced Tutorials

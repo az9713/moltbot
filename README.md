@@ -6,9 +6,9 @@
 >
 > This fork adds:
 > - **[Advanced Tutorials](./docs/advanced-tutorials/)** — 26 in-depth tutorials (00-25) covering architecture, channel setup, configuration, security, plugin development, MCP integration, agent orchestration, and more
-> - **[Quick Start Guide](./QUICK_START.md)** — Get running in 5 minutes
-> - **[User Guide](./USER_GUIDE.md)** — Complete end-user reference
-> - **[Developer Guide](./DEVELOPER_GUIDE.md)** — Architecture and internals for contributors
+> - **[Quick Start Guide](./docs/guides/quick-start.md)** — Get running in 5 minutes
+> - **[User Guide](./docs/guides/user-guide.md)** — Complete end-user reference
+> - **[Developer Guide](./docs/guides/developer-guide.md)** — Architecture and internals for contributors
 >
 > **Next-Generation Features (17-25):**
 > - [MCP Integration](./docs/advanced-tutorials/17-mcp-integration.md) — Connect external tools via Model Context Protocol

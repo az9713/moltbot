@@ -1353,6 +1353,6 @@ You've learned how to troubleshoot:
 **Congratulations!** You've completed the Moltbot Advanced Tutorials series.
 
 For more help, see:
-- [Getting Started Guide](../QUICK_START.md)
-- [User Guide](../USER_GUIDE.md)
-- [Developer Guide](../DEVELOPER_GUIDE.md)
+- [Getting Started Guide](../guides/quick-start.md)
+- [User Guide](../guides/user-guide.md)
+- [Developer Guide](../guides/developer-guide.md)

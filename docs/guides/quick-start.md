@@ -427,9 +427,9 @@ moltbot channels --help
 
 ### Read the Full Documentation
 
-- [User Guide](USER_GUIDE.md) - Complete usage instructions
+- [User Guide](user-guide.md) - Complete usage instructions
 - [docs.molt.bot](https://docs.molt.bot) - Full online documentation
-- [Developer Guide](DEVELOPER_GUIDE.md) - If you want to contribute
+- [Developer Guide](developer-guide.md) - If you want to contribute
 
 ---
 

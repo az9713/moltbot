@@ -1566,6 +1566,6 @@ scripts/committer "Message" file.ts     # Commit changes
 ---
 
 **Need more help?**
-- Check the [User Guide](USER_GUIDE.md) for usage instructions
+- Check the [User Guide](user-guide.md) for usage instructions
 - Visit [docs.molt.bot](https://docs.molt.bot) for full documentation
 - Join the [Discord](https://discord.gg/clawd) for community support
